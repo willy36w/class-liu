@@ -188,6 +188,13 @@ echo "<br>";
 echo "函數顯示的位置在" . mb_strpos($str,$target);
 
 ?>
-
+<?php
+for($i=4;$i>0;$i--){
+    for($j=0;$j<$i;$j++){
+        echo "*";
+    }
+    echo"<br>";
+}
+?> 
 </body>
 </html>

@@ -34,6 +34,7 @@ for($i=0; $i<$stars; $i++){
     echo "<br>";
 }
 
+
 ?>
 
 <hr>
@@ -46,6 +47,8 @@ for($i=$stars; $i>0; $i--){
     }
     echo "<br>";
 }
+
+
 
 ?>
 
@@ -107,6 +110,61 @@ for($j=0;$j<$tmp*2+1; $j++){
 //      }
 //         echo "<br>";
 //  }
+
+?>
+<hr>
+
+<h3>練習</h3>
+
+<?php
+
+for($i=1; $i<=4; $i++){
+   for($j=1; $j<=$i; $j++){
+   echo "*";
+}
+   echo"<br>";
+}
+
+?>
+<hr>
+<h3>chat gpt範例</h3>
+<?php
+
+// 定义正方形的边长
+$length = 5;
+
+// 循环打印平行四边形
+for ($row = 1; $row <= $length; $row++) {
+    // 添加适当数量的空格来推移星号
+    for ($space = 1; $space < $row; $space++) {
+        echo "&nbsp;&nbsp;";
+    }
+
+    // 打印星号
+    for ($col = 1; $col <= $length; $col++) {
+        echo "* ";
+    }
+    echo "<br>";
+}
+
+?>
+
+<hr>
+
+<h3>自練正三角形</h3>
+
+<?php
+
+$stars=7;
+for($i=0; $i<$stars; $i++){
+    for($k=7; $k>$i; $k--){
+echo "&nbsp";
+    }
+    for($j=0; $j<=$i; $j++){
+    echo "*";
+    }
+    echo "<br>";
+}
 
 ?>
 
