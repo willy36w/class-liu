@@ -37,12 +37,31 @@ echo "編寫一個PHP程序，使用for循環輸出一個*的直角三角形";
 echo "<br>";
 // 努力搞懂阿阿阿
 for($i=1; $i<=6; $i++){
+    
    for($j=1; $j<$i; $j++){
     echo "*";
    }
     echo"<br>";
 }
 ?>
+
+<hr>
+<style>
+.item{
+    width:50px;
+    height:50px;
+    border:1px solid red;
+}
+</style>
+<?php
+echo "<div class='item'>";
+for($i=0; $i<42; $i++){
+
+}
+echo "</div>";
+
+?>
+
 
 </body>
 </html>
