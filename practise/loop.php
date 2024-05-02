@@ -37,7 +37,18 @@ echo "編寫一個PHP程序，使用for循環輸出一個*的直角三角形";
 echo "<br>";
 
 for($i=1; $i<=6; $i++){
-   for($j=1; $j<$i; $j++){
+   for($j=1; $j<=$i; $j++){
+    echo "*";
+   }
+    echo"<br>";
+}
+
+echo "<hr>";
+echo "編寫一個PHP程序，使用for循環輸出一個*的倒直角三角形";
+echo "<br>";
+
+for($i=6; $i>=1; $i--){
+   for($j=1; $j<=$i; $j++){
     echo "*";
    }
     echo"<br>";
@@ -131,24 +142,6 @@ for($i=1; $i<=5; $i++){
 
 
 ?>
-
-<hr>
-<style>
-.item{
-    width:50px;
-    height:50px;
-    border:1px solid red;
-}
-</style>
-<?php
-echo "<div class='item'>";
-for($i=0; $i<42; $i++){
-
-}
-echo "</div>";
-
-?>
-
 
 </body>
 </html>
