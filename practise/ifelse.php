@@ -95,6 +95,49 @@ if($age<18){
 }else {
     echo $age,"是成年";
 }
+
+echo "<hr>";
+echo "寫一個 PHP 程式，接受一個整數作為輸入，如果該數字大於等於 0，輸出 Positive，如果該數字小於 0，輸出 Negative，如果該數字等於 0，輸出 Zero";
+echo "<br>";
+$score=10;
+if($score>0){
+    echo "Positive";
+}else if($score<0){
+    echo "Negative";
+}else{
+    echo "Zero";
+}
+
+echo "<hr>";
+echo "寫一個 PHP 程式，判斷一個年份是否為閏年。如果是閏年，輸出 Leap year，否則輸出 Not a leap year";
+echo "<br>";
+$year=2012;
+if(($year%4==0 && $year%100!=0) || ($year%400==0)){
+    echo "Leap year";
+}else{
+    echo "Not a leap year";
+}
+
+echo "<hr>";
+echo "寫一個 PHP 程式，判斷一個字串是否為空。如果字串為空，輸出 Empty string，否則輸出 Non-empty string。";
+echo "<br>";
+$string="";
+if(empty($string)){
+    echo "Empty string";
+}else{
+    echo "Non-empty string";
+}
+
+echo "<hr>";
+echo "寫一個 PHP 程式，判斷一個數字是否為奇數還是偶數。如果是奇數，輸出 Odd，如果是偶數，輸出 Even。";
+echo "<br>";
+$score=112;
+if($score%2==0){
+    echo "Even";
+}else{
+    echo "Odd";
+}
+
 ?>
 </body>
 </html>

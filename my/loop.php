@@ -28,7 +28,7 @@ while($score<60){
     $score=$score+10;
 }
 echo "<br>";
-echo "調整結果".$score;
+echo "調整結果","=".$score;
 ?>
 
 <h2>巢狀結構</h2>
